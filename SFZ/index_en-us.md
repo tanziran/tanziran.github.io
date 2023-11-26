@@ -1,4 +1,4 @@
-*   [If you can't read English, you can click here to convert to Chinese](https://tanziran.github.io/SFZ/index_zh-cn.index)
+*   [If you can't read English, you can click here to convert to Chinese](https://tanziran.github.io/SFZ/index_zh-cn.html)
 
 *   How to use the SFZ:
 *   Click [here](https://tanziran.github.io/SFZ/1-shenfenzheng.txt) to page number 1.
