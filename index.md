@@ -7,6 +7,7 @@ Welcome to the menu
 Tool
 *   [Removal Control](https://tanziran.lanzoue.com/iGnjy1elhiqd)
 *   [LuckyDraw](https://tanziran.github.io/LuckyDraw)
+*   [SFZ](https://tanziran.github.io/SFZ/index.html)
 
 Game
 *   [Jumpscare](https://tanziran.github.io/Jumpscare/index.html)
