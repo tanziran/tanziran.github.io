@@ -1,0 +1,115 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>准备起飞！</title>  
+    <style>  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            background: url('https://t.alcy.cc/fj/') no-repeat center center fixed;   
+            background-size: cover;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            margin: 0;  
+            color: white;  
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+        }  
+        .container {  
+            text-align: center;  
+            background-color: rgba(0, 0, 0, 0.7);  
+            padding: 2em;  
+            border-radius: 10px;  
+            animation: fadeIn 2s;  
+        }  
+        @keyframes fadeIn {  
+            from { opacity: 0; }  
+            to { opacity: 1; }  
+        }  
+        h1 {  
+            font-size: 4em;  
+            margin-bottom: 0.5em;  
+        }  
+        p {  
+            font-size: 1.5em;  
+            margin: 0.5em 0;  
+        }  
+        #countdown {  
+            margin-top: 1em;  
+            font-size: 3em;  
+        }  
+        .count {  
+            display: none;  
+            opacity: 0;  
+            transition: opacity 0.5s;  
+        }  
+        button {  
+            font-size: 1.5em;  
+            padding: 0.5em 1.5em;  
+            background-color: #ff8000;  
+            border: none;  
+            border-radius: 5px;  
+            color: white;  
+            cursor: pointer;  
+            transition: background-color 0.3s;  
+            margin-top: 1em;  
+        }  
+        button:hover {  
+            background-color: #ff9933;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <h1>准备起飞！</h1>  
+        <p>恭喜你，幸运儿！你即将踏上一次神秘且令人兴奋的冒险之旅！</p>  
+        <p>请系好安全带，倒计时开始了...</p>  
+  
+        <div id="countdown">  
+            <p class="count">5</p>  
+            <p class="count">4</p>  
+            <p class="count">3</p>  
+            <p class="count">2</p>  
+            <p class="count">1</p>  
+            <p class="count">起飞！</p>  
+        </div>  
+  
+        <p>如果你已经迫不及待了，点击下方按钮直接起飞吧：</p>  
+  
+        <button onclick="window.location.href='https://tanziran.github.io/home';">立即起飞！</button>  
+    </div>  
+  
+    <script>  
+        // 使用JavaScript模拟倒计时效果  
+        var countdown = document.getElementById('countdown');  
+        var countElements = countdown.getElementsByClassName('count');  
+        var count = 0;  
+  
+        function showNextCount() {  
+            if (count > 0) {  
+                countElements[count - 1].style.display = 'none';  
+                countElements[count - 1].style.opacity = 0;  
+            }  
+            if (count < countElements.length) {  
+                countElements[count].style.display = 'block';  
+                countElements[count].style.opacity = 1;  
+                count++;  
+            }  
+        }  
+  
+        var countdownInterval = setInterval(function() {  
+            showNextCount();  
+            if (count === countElements.length) {  
+                clearInterval(countdownInterval);  
+            }  
+        }, 1000);  
+  
+        setTimeout(function() {  
+            alert('飞机已经起飞！你将被自动传送到新的页面。');  
+            window.location.href = 'https://tanziran.github.io/home';  
+        }, 6000); // 6秒后跳转  
+    </script>  
+</body>  
+</html>
