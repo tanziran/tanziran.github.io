@@ -2,5 +2,15 @@
     "title":"jzrm Blog",
     "subTitle":"见字如面，希望我的文字能为你带来些帮助。",
     "avatarUrl":"https://avatars.githubusercontent.com/u/113038143",
+    "faviconUrl":"https://img.jzrm.eu.org/file/BQACAgUAAyEGAASKKPBOAAMPaI3PNCKS-Xq5VcKaqL2z_oJnhTsAAgsYAAKCq3BUBcADGNtNtZw2BA.svg",
+    "homeUrl":"http://blog.jzrm.eu.org",
+    "email":"me@jzrm.eu.org",
+    "startSite":"16/02/2025",
+    "i18n":"CN",
+    "UTC":8,
+    "themeMode":"manual",
+    "dayTheme":"light",
+    "nightTheme":"dark_colorblind",
+    "urlMode":"pinyin",
     "GMEEK_VERSION":"last"
 }
