@@ -1,19 +1,35 @@
 {
-    "title":"jzrm Blog",
-    "subTitle":"见字如面，希望我的文字能为你带来些帮助。",
-    "avatarUrl":"https://avatars.githubusercontent.com/u/113038143",
-    "faviconUrl":"https://img.jzrm.eu.org/file/BQACAgUAAyEGAASKKPBOAAMPaI3PNCKS-Xq5VcKaqL2z_oJnhTsAAgsYAAKCq3BUBcADGNtNtZw2BA.svg",
-    "homeUrl":"http://blog.jzrm.eu.org",
-    "email":"me@jzrm.eu.org",
-    "startSite":"16/02/2025",
-    "i18n":"CN",
-    "UTC":8,
-    "themeMode":"manual",
-    "dayTheme":"light",
-    "nightTheme":"dark_colorblind",
-    "urlMode":"pinyin",
-    "needComment":1,
-    "bottomText":"转载请注明出处",
-    "showPostSource":1,
-    "GMEEK_VERSION":"last"
+    "title": "jzrm Blog | 来生做春风，流浪又自由。",
+    "subTitle": "见字如面，希望我的文字能为你带来些帮助。",
+    "startSite": "16/02/2025",
+    "bottomText": "❤️ 转载文章请注明出处，谢谢！❤️",
+    
+    "avatarUrl": "https://avatars.githubusercontent.com/u/113038143",
+    "faviconUrl": "http://blog.jzrm.eu.org/Blog.svg",
+    "homeUrl": "http://blog.jzrm.eu.org",
+    "email": "me@jzrm.eu.org",
+    
+    "i18n": "CN",
+    "UTC": 8,
+    "urlMode": "pinyin",
+    
+    "themeMode": "manual",
+    "dayTheme": "light",
+    "nightTheme": "dark_colorblind",
+    "yearColorList": ["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    
+    "needComment": 1,
+    "commentLabelColor": "#006b75",
+    "showPostSource": 1,
+    
+    "onePageListNum": 10,
+    
+    "rssSplit": "sentence",
+    "ogImage": "https://avatars.githubusercontent.com/u/113038143",
+    
+    "allHead": "<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
+    "script": "<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+    "primerCSS": "<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
+    
+    "GMEEK_VERSION": "last"
 }
