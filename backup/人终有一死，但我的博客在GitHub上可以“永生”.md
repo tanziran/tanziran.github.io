@@ -1,4 +1,4 @@
-最近读了一篇名为《[People Die, but Long Live GitHub](https://laike9m.com/blog/people-die-but-long-live-github,122/》的文章，感触颇深。
+最近读了一篇名为《[People Die, but Long Live GitHub](https://laike9m.com/blog/people-die-but-long-live-github,122/)》的文章，感触颇深。
 
 人固有一死，这是无法改变的自然规律。我们也许能在世间留下一些财富、一些记忆，但这些都会随着时间的流逝和后代的更迭而逐渐模糊，甚至消失殆尽。
 
